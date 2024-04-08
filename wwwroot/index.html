@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://js.sentry-cdn.com/77793c33e8c67543eb70215a66655b3a.min.js"
+            crossorigin="anonymous"></script>
+
+    <script src="js/JavaScript.js"></script>
+    <script>
+        Sentry.onLoad(function () {
+            Sentry.init({
+                integrations: [
+                    Sentry.replayIntegration(),
+                ],
+                //// Session Replay
+                //replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
+                //replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
+            });
+        });
+
+
+        //myUndefine2dFunction();
+
+
+        //try {
+        //    throw new Error("This is a test exception to log from jsnlogger");
+        //} catch (e) {
+        //}
+
+        //LogFromFile();
+
+    </script>
+
+</head>
+<body>
+    Sentry Js Sample.
+    <input type="button" onclick="LogFromFile();" value="Click Me!" />
+    <input type="button" onclick="LogFromFile2();" value="Click Me2!" />
+</body>
+</html>

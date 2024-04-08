@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "vHpewWU4K5xU7pkr/P1xz+lWTrjShkDBDl05WSToeZs=",
+  "Source": "SentrySampleApp",
+  "BasePath": "_content/SentrySampleApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SentrySampleApp\\wwwroot",
+      "Source": "SentrySampleApp",
+      "ContentRoot": "D:\\Learning\\Logs\\SentrySampleApp\\wwwroot\\",
+      "BasePath": "_content/SentrySampleApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Learning\\Logs\\SentrySampleApp\\wwwroot\\js\\JavaScript.js",
+      "SourceId": "SentrySampleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\Logs\\SentrySampleApp\\wwwroot\\",
+      "BasePath": "_content/SentrySampleApp",
+      "RelativePath": "js/JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
+    }
+  ]
+}
